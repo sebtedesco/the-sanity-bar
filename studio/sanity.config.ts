@@ -7,8 +7,8 @@ export const projectId = process.env.SANITY_STUDIO_PROJECT_ID!
 export const dataset = process.env.SANITY_STUDIO_DATASET!
 
 export default defineConfig({
-  name: 'the-sanity-bar',
-  title: 'The Sanity Bar',
+  name: 'sanity-bar-menu',
+  title: 'Sanity Bar Menu',
   projectId: 'jata94cz',
   dataset: 'production',
   plugins: [deskTool(), visionTool()],

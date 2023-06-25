@@ -19,8 +19,8 @@ export default defineNuxtConfig({
     ],
   ],
   sanity: {
-    projectId: process.env.NUXT_ENV_SANITY_PROJECT_ID,
-    dataset: process.env.NUXT_ENV_SANITY_DATASET,
+    projectId: 'jata94cz',
+    dataset: 'production',
     useCdn: true, // `false` if you want to ensure fresh data
     apiVersion: "2021-03-25",
   },

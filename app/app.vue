@@ -1,11 +1,13 @@
 <template>
-  <div class="container">
+  <div class="container border p-5">
     <header class="header">
       <a class="header__title" href="/">The Sanity Bar</a>
     </header>
-    <main>
-      <NuxtPage />
-    </main>
+    <div class="flex flex-col">
+      <main class="">
+        <NuxtPage />
+      </main>
+    </div>
     <footer class="footer">
       <p class="footer__text">
         Tedes_Co Inc.
